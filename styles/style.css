@@ -1,0 +1,19 @@
+body{
+    background-color: #161616;
+    color: white
+}
+ a {
+    text-decoration: none;
+    color: white;
+}
+.col-4 a{
+    text-transform:uppercase;
+    background-color: #F8DA64;
+    color: #161616;
+}
+
+.intro1 div.data{
+background-color: white;
+color:#161616;
+max-width: 40%;
+}
