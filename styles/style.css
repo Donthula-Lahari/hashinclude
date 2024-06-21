@@ -2,18 +2,67 @@ body{
     background-color: #161616;
     color: white
 }
+
+/* nav section starts here */
+
+nav{    font-size: 19px;
+}
  a {
     text-decoration: none;
     color: white;
 }
-.col-4 a{
-    text-transform:uppercase;
-    background-color: #F8DA64;
-    color: #161616;
+
+div.intro1 p.matter{
+background-color: white;
+max-width:42%;
+color: #161616;
+padding: 11px !important;
+font-size: 21px;
+}
+div.intro1 h2.matter{
+    font-size: 65px;
+    font-weight: 450;
+
+}
+div a.explore
+    {
+        background-color: #F8DA64;
+        color: #161616;
+        padding: 16px 27px;
+        text-transform: uppercase;
+        /* margin-top: 500px !important; */
+    }
+
+.intro div.explore-more{
+    position: absolute;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    background-color: #624BFF;
+    /* padding: 50; */
+    padding: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+div.nav-section{
+    border: 1.5px solid #fff;
+    border-top: none;
+    border-radius: 0 0 45px 45px;
 }
 
-.intro1 div.data{
-background-color: white;
-color:#161616;
-max-width: 40%;
+/* nav section ends here */
+
+/* popular courses section starts here  */
+
+div.courses-section{
+    text-align: center;
+    margin-top: 10px;
+}
+
+div.courses-section a{
+    padding:5px 20px;
+    margin: 0px 15px;
+    border:1px solid #C4C4C4;
+    border-radius: 4px;
+    font-size: 13px;
+    color: #818c96;
 }

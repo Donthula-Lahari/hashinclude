@@ -2,19 +2,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hashinclude</title>
+    <title>Hash Include</title>
     <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
-    <link href="styles/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
+    <div class="nav-section">
     <nav class="container-mt-10">
+
+            <!-- nav bar starts here -->
+
         <section>
             <div class="navbar">
                 <div class="container py-5 navigations" >
-                    <div class="">
+                    <div class="logo">
                         <img src="assets/hash-include-logo.svg" alt="hashinclude-logo" class="img-fluid">
                     </div>
                     <div><a href="home.html">Home</a></div>
@@ -24,32 +28,107 @@
                 </div>
             </div>
             <br><br>
+
+            <!-- nav bar ends here -->  
+
+            <!-- introduction, buttons starts here -->
+
         </section>
-        <section class="introduction container">
-            <div class="container">
+        <section class="introduction">
+            <div class="container intro">
                 <div class="row">
-                    <div class="container col-6 intro1" >
-                        <div class="data text-center pt-2 pb-2 rounded-3    ">Never stop learning</div>
-                        <h2 class="matter pt-3 pb-3">Elevate Your Skills <br>with Hash Include's <br>Guidance</h2>
-                        <div class=" row container-fluid">
-                    </div>
-                            <div class="col-4">
-                                <a href="courses.html" class="explore p-3 rounded-3">Explore Path</a>
-                            </div>
-                            <div class="col-3">
-                                <img src="assets/banner-sub-image.svg" alt="sub-image">
-                            </div>
+                    <div class="container col-md-6 col-sm-7 intro1" >
+                        <p class="data rounded-3 text-center matter">Never stop learning</p>
+                        <h2 class="matter">Elevate Your Skills <br>with Hash Include's <br>Guidance</h2>
+                        <div class="explore-button mt-4">
+                            <a href="courses.html" class="explore rounded-3 ">Explore Path</a>                 
+                            <img src="assets/banner-sub-image.svg" alt="sub-image" class="img-fluid ps-2">
                         </div>
-    
                     </div>
-                    <div class="container col-6 intro2">
-                        <img src="assets/banner-main-img.svg" alt="main-img" width="650px">
-                    </div>
+                    <div class="container col-md-6 col-sm-5 intro2 position-relative">  
+                        <img src="assets/banner-main-img.svg" alt="main-img" width="625px" class="img-fluid" width="600" height="700">
+                    </div>                   
                 </div>
-                
+
+                <div class="explore-more">
+                    <img src="assets/explore.svg" alt="hu">
+                </div>
             </div>
         </section>
-    </nav>
+
+                    <!-- introduction, buttons ends here -->
+
+    </nav> </div>
+    <br><br><br><br><br><br><br>
+
+    <section class="popular-courses heading-text">
+        <h2 class="heading-3 text-center">Popular Courses</h2>
+        <div class="d-flex justify-content-center"> <img src="assets/popular-course-line (1).svg" alt="underline"> </div>
+        <br>
+        <div class="courses-section">
+            <a href="All Programs" class="course-items">All Programs</a>
+            <a href="Front-end development" class="course-items">Front-end development</a>
+            <a href="Fullstack development" class="course-items">Fullstack development</a>
+            <a href="Testing" class="course-items">Testing</a>
+            <a href="UI/UX designing" class="course-items">UI/UX designing</a>
+        </div> <br> <br>
+        <section class="course-cards container">
+            <div class="row">
+                <div class="cards container col-3 ">
+                    <img src="assets/card-1-v1.svg" alt="card1">
+                    <div class="student-card d-flex bg-white text-black w-75 rounded-5">
+                        <img src="assets/student-card-icons.svg" alt="student-icon" class="ps-2">
+                        <p class="pt-3 ">+ 70 students </p>
+                    </div> 
+                    <div class="course-desc p-3">
+                        <h6>Front-End development </h6><br>
+                        <p>Create captivating user experiences with expertise in HTML, CSS, JavaScript, and Angular/React. Mastering the art of web design from conception to implementation.</p>
+                    </div>
+                    <button class="btn">Learn More</button>
+                    
+                </div>
+                <div class="cards container col-3">
+                    <img src="assets/card-1-v1.svg" alt="card1">
+                    <div class="student-card d-flex bg-white text-black w-75 rounded-5">
+                        <img src="assets/student-card-icons.svg" alt="student-icon" class="ps-2">
+                        <p class="pt-3 ">+ 70 students </p>
+                    </div> 
+                    <div class="course-desc">
+                        <h6>Front-End development </h6><br>
+                        <p>Create captivating user experiences with expertise in HTML, CSS, JavaScript, and Angular/React. Mastering the art of web design from conception to implementation.</p>
+                    </div>
+                    <button class="btn">Learn More</button>
+                </div>
+                <div class="cards container col-3">
+                    <img src="assets/card-1-v1.svg" alt="card1">
+                    <div class="student-card d-flex bg-white text-black w-75 rounded-5">
+                        <img src="assets/student-card-icons.svg" alt="student-icon" class="ps-2">
+                        <p class="pt-3 ">+ 70 students </p>
+                    </div> 
+                    <div class="course-desc">
+                        <h6>Front-End development </h6><br>
+                        <p>Create captivating user experiences with expertise in HTML, CSS, JavaScript, and Angular/React. Mastering the art of web design from conception to implementation.</p>
+                    </div>
+                    <button class="btn">Learn More</button>
+                </div>
+                <div class="cards container col-3">
+                    <img src="assets/card-1-v1.svg" alt="card1">
+                    <div class="student-card d-flex bg-white text-black w-75 rounded-5">
+                        <img src="assets/student-card-icons.svg" alt="student-icon" class="ps-2">
+                        <p class="pt-3 ">+ 70 students </p>
+                    </div> 
+                    <div class="course-desc">
+                        <h6>Front-End development </h6><br>
+                        <p>Create captivating user experiences with expertise in HTML, CSS, JavaScript, and Angular/React. Mastering the art of web design from conception to implementation.</p>
+                    </div>
+                    <button class="btn">Learn More</button>
+                </div>
+            </div>
+            
+        </section>
+    </section>
+
+
     
 </body>
 </html>
