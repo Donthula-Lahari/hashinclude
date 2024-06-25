@@ -1,6 +1,7 @@
 body{
     background-color: #161616;
-    color: white
+    color: white;
+    margin: 0;
 }
 
 /* nav section starts here */
@@ -53,6 +54,8 @@ div.nav-section{
 
 /* popular courses section starts here  */
 
+
+
 div.courses-section{
     text-align: center;
     margin-top: 10px;
@@ -66,3 +69,260 @@ div.courses-section a{
     font-size: 13px;
     color: #818c96;
 }
+
+
+.card{
+    background-color: #161616;
+}
+
+.card-body{
+    background-color: #212121;
+    padding-right: 0px;
+    border-radius: 0px 0px 12px 12px ;
+}
+.card-body p{
+ color:#8b8d8f;
+ font-size: 14px;
+ padding: 25px 0px;
+
+}
+.card-body a{
+    background-color: #212121;
+    border-color:#F8DA64;
+    color: #F8DA64;
+    position: relative;
+    right:0px;
+   
+   }
+
+.card-body a:hover{
+    background-color:#F8DA64;
+    color: black;
+    border-color: #F8DA64;
+}
+
+div.card div.d-flex{
+    position: absolute;
+    top:160px;
+    left:12%
+}
+
+
+/* why-us section */
+
+section.why-us p.matter{
+text-align: center;
+padding:0px 370px;
+color:#8b8d8f;
+}
+.why-us-containers .row .card .card-body{
+    margin:10px;
+    border-radius: 10px;
+}
+.why-us-containers .row .card .card-body img{
+   padding-top: 15px;
+}
+.why-us-containers .row .card .card-body p{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 18px;
+ }
+
+
+ /* why we stand out section starts here */
+
+.best-learning{
+    background-color: #212121;
+    margin:75px 25px;
+    padding: 100px 0px 75px;
+ }
+
+ .best-learning .why-we-line{
+    background-color: #F8DA64;
+    width: 40px;
+    height: 2px;
+    margin-top: 11px;
+    text-align: center;
+    margin-left:43%;
+
+ }
+.best-inner-container  {
+ background-color: #212121;
+}
+.best-inner-container .card-body{
+    margin:1px;
+    border-style: ridge;
+    border-radius: 20px;
+    border-width: 1px;
+}
+
+.best-inner-container .card-body h5{
+    font-size: 17px;
+    padding-top: 20px;
+    font-weight: 1px;
+}
+.best-inner-container .card-body p{
+    font-size: 17px;
+    padding-right:10px;
+    font-weight: lighter;
+   
+}
+
+/* training section starts here */
+
+div.training-inner p.training{
+    padding: 5px 15px;
+    color:#0b7077;
+    background-color: #D4E1FF;
+    width:85px;
+    border-radius: 8px;
+}
+
+div.training-inner{
+    padding-bottom: 50px;
+}
+
+
+/* about-us section starts here */
+
+.span-line{
+    margin-top: 11px;
+}
+
+.crafting-careers div.container.col-md-7 div.d-flex p{
+    margin-left:20px;
+}
+
+section.about-us{
+    background-color:#212121;
+}
+
+.crafting-careers{
+    padding:80px 90px;
+}
+
+div.container.col-md-7{
+    /* margin-left: 10px; */
+    padding: 0px 90px;
+    /* color:#adb2b; */
+}
+
+div.container.col-md-7 p{
+    color:#adb2b7;
+}
+
+div.container-fluid .row .img1{
+    width:450px;
+}
+div.container-fluid .row .img2{
+ width:350px;
+ margin:0px 100px
+}
+div.container-fluid .row .img3{
+    width:350px;
+    /* margin:0px 100px */
+   }
+
+.span-line{
+    background: #F8DA64;
+    width: 47px;
+    display: inline-block;
+    height: 4px;
+
+}
+
+.about-us-inner-container .row-inner span{
+color:#F8DA64;
+}
+
+.about-us-inner-container{
+    padding-bottom: 70px;
+}
+.about-us-inner-container p{
+    color:#adb2b7;
+}
+
+.row .row-inner h2{
+ font-size: 40px;
+}
+
+.row .row-inner span.plus{
+   position: absolute;
+}
+
+.row .row-inner span.eight{
+color:white;}
+
+
+
+/* testimoni */
+
+.heading-testimonal span.line{
+    background-color: #F8DA64;
+    width: 40px;
+    height: 2px;
+    margin-top: 11px;
+    text-align: center;
+    margin-left:43%;}
+
+.heading-testimonal > p{
+        color: #c1baba;
+}
+
+.profile .container p{
+    color: #c1baba;
+}
+
+.inner-content .row .col-4 p{
+    color: #c1baba;
+}
+
+.testimonal h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+    /* offer section starts here */
+
+.offer{
+    background-color: #624BFF;
+    background-image: url(https://hashinclude.info/time-bg.50c998895fad7be4.svg);
+    background-position: 126px 127px;
+    margin:150px;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+}
+.conatiner.col-7{
+    padding: 40px 100px;
+}
+.conatiner.col-7 button{
+    margin-top: 30px;
+    border-color: white;
+    background-color: white;
+    color: #161616;
+}
+.conatiner.col-md-5{
+    padding-top: 100px;
+}
+
+.conatiner.col-md-5 > p{
+    font-size: 30px;
+}
+
+.time.col-4 h2{
+ font-size: 100px;
+ text-align: center;
+}
+.time.col-4 p{
+    font-size: 23px;
+    text-align: center;
+   }
+
+.footer {
+    background-image: url(https://hashinclude.info/footer-bg.cc00989cacc2122a.svg);
+    background-size: cover;
+    /* width:1500px; */
+    color: #0b7077;
+    padding: 7% 7% 5%;
+    margin:0px 0px
+}
+

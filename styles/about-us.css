@@ -1,0 +1,180 @@
+body{
+    color: white;
+    background-color: #161616;
+}
+
+/* nav section starts here */
+
+.navbar{font-size: 19px;}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+div a.explore
+    {
+        background-color: #F8DA64;
+        color: #161616;
+        padding: 16px 27px;
+        text-transform: uppercase;
+        /* margin-top: 500px !important; */
+    }
+
+.intro div.explore-more{
+    position: absolute;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    background-color: #624BFF;
+    /* padding: 50; */
+    padding: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+/* nav section ends here */
+
+/* about-us section starts here */
+
+.span-line{
+    margin-top: 11px;
+}
+
+.crafting-careers div.container.col-md-7 div.d-flex p{
+    margin-left:20px;
+}
+
+section.about-us{
+    background-color:#212121;
+    margin: 0px 30px;
+}
+
+.crafting-careers{
+    padding:80px 90px;
+}
+
+div.container.col-md-7{
+    /* margin-left: 10px; */
+    padding: 0px 90px;
+    /* color:#adb2b; */
+}
+
+div.container.col-md-7 p{
+    color:#adb2b7;
+}
+
+div.container-fluid .row .img1{
+    width:450px;
+}
+div.container-fluid .row .img2{
+ width:350px;
+ margin:0px 100px
+}
+div.container-fluid .row .img3{
+    width:350px;
+    /* margin:0px 100px */
+   }
+
+.span-line{
+    background: #F8DA64;
+    width: 47px;
+    display: inline-block;
+    height: 4px;
+
+}
+
+.about-us-inner-container .row-inner span{
+color:#F8DA64;
+}
+
+.about-us-inner-container{
+    padding-bottom: 70px;
+}
+.about-us-inner-container p{
+    color:#adb2b7;
+}
+
+.row .row-inner h2{
+ font-size: 40px;
+}
+
+.row .row-inner span.plus{
+    position: absolute;
+    top:605;
+}
+
+.row .row-inner span.eight{
+color:white;}
+
+
+/* about-us section starts here */
+
+
+span.Our-team-line{
+    height: 1px;
+    display: block;
+    background: #fff;
+    width: 76%;
+    margin: auto;
+    /* margin: 45px 0px; */
+}
+
+/* our-team section starts here */
+
+div.our-team-inner{
+    padding-top: 75px;
+} 
+
+div.our-team-inner img{
+ position: relative;
+ left:715px;
+ bottom: -3px;
+ padding-bottom: 30px;
+}
+
+div.our-team-inner p{
+    padding: 0px 450px;
+    color:#adb2b7;
+   }
+
+#img1{
+    width:445px;
+}
+#img3{
+    width:445px;
+    /* margin-left:50px; */
+}
+#img5{
+    width:430px;
+    margin:0px 123px;
+}
+#img6{
+    width:435px;
+}
+#img2{
+    width:340px;
+    margin:0px 114px;
+}
+#img4{
+    width:345px;
+}
+
+div.container-2{
+    padding-top:70px;
+    padding-bottom:150px;
+}
+div.container-1{
+    padding-top:70px;
+}
+/* about-us section starts here */
+
+.footer {
+    background-image: url(https://hashinclude.info/footer-bg.cc00989cacc2122a.svg);
+    background-size: cover;
+    /* width:1500px; */
+    color: #0b7077;
+    padding: 7% 7% 5%;
+    margin:0px 0px
+}
+
