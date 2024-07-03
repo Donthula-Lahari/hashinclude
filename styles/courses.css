@@ -5,7 +5,27 @@ body{
 
 /* nav section starts here */
 
-nav{font-size: 19px;}
+.navbar{font-size: 19px;   
+
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+
+}
+.desktop-hide{
+    display: none;
+}
+
+
+.navbar-expand-md {
+    padding: 50px 121px;
+}
+
+#collapsibleNavbar{
+    justify-content:space-around;
+    margin-left: 71px;
+}
 
 a {
     text-decoration: none;          
@@ -37,9 +57,11 @@ div a.explore
 
 /* popular courses section starts here  */
 
-div.courses-section{
+
+div.courses-section {
     text-align: center;
     margin-top: 10px;
+    margin-bottom: 44px;
 }
 
 div.courses-section a{
@@ -76,6 +98,7 @@ div.courses-section a{
    
    }
 
+
 .card-body a:hover{
     background-color:#F8DA64;
     color: black;
@@ -88,12 +111,112 @@ div.card div.d-flex{
     left:12%
 }
 
-
-.footer {
-    background-image: url(https://hashinclude.info/footer-bg.cc00989cacc2122a.svg);
+footer {
+    background-image: url("https://hashinclude.info/footer-bg.cc00989cacc2122a.svg");
     background-size: cover;
     /* width:1500px; */
     color: #0b7077;
     padding: 7% 7% 5%;
-    margin:0px 0px
+    /* margin:0px 0px */
 }
+
+div.justify-content-evenly a{
+color:#0b7077
+}
+.address-block a{
+    color: #0b7077;
+}
+
+@media (max-width:767px)  {
+
+    body{ overflow-x: hidden;
+    }
+    .desktop-hide{
+        display: block;
+      }
+      .desktop-hide button{
+        cursor: pointer;
+        max-width: 178px;
+        background-color: #161616;
+        border-color: white;
+        margin-left: 36%;
+    
+    }
+    .courses-section{
+          display: none;
+    }
+    .navbar-expand-md {
+        padding: 54px 69px;
+    }
+    div.courses-section a {
+        padding: 7px 18px;
+        margin: 1px 5px;
+      
+    }
+    div.card div.d-flex {
+        position: absolute;
+        top: 120px;
+        left: 7%;
+    }
+    .card {
+        margin-bottom: 24px;
+    }
+    .course-cards{
+        margin-top:30px;
+        max-width: 694px;
+    }
+    .course-cards div.card div.d-flex {
+        position: absolute;
+        top: 177px;
+        left: 14%;
+    }
+    .row .card .card-body p {
+        padding-top: 15px;
+        text-align: left; 
+        font-size: 15px;
+    }
+}    
+@media screen and (max-width: 576px) {
+    div.courses-section {
+        display:none;
+      }
+
+      .desktop-hide{
+        display: block;
+      }
+    .desktop-hide button{
+    cursor: pointer;
+    max-width: 178px;
+    background-color: #161616;
+    border-color: white;
+}
+
+.navbar-expand-md {
+    padding: 44px 23px;
+}
+.dropdown{
+    position: relative;
+    margin-bottom: 22px;
+    margin-left: 34%;
+}
+div.card div.d-flex {
+    position: absolute;
+    top: 275px;
+    left: 22%;
+    width: 306px;
+}
+.course-cards .row{
+    width: 527px;
+    margin-left: 10;
+}
+
+footer .container-fluid .row div{
+    margin-bottom: 8px;
+    margin-top: 20px;
+}
+
+}
+
+
+
+
