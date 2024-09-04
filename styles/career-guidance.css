@@ -1,5 +1,5 @@
 body{
-    background: #161616 !important;;
+    background: #161616 ;
 }
 .navbar-expand-md {
     padding: 50px 121px;
@@ -15,6 +15,13 @@ body{
 
 .navbar a{
 color: white;
+}
+.nav-link:focus{
+    color: #F8DA64 !important;
+}
+
+.nav-link:hover{
+    color: white;
 }
 
 

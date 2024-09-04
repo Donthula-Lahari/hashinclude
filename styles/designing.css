@@ -14,6 +14,9 @@ nav {
 .navbar-expand-md {
     padding: 50px 121px;
 }
+.nav-link:focus{
+    color: #F8DA64;
+}
 
 #collapsibleNavbar{
     justify-content:space-around;
@@ -182,7 +185,7 @@ span.small-text{
 
 
 
-footer.frontend-footer {
+footer.frontend-footer {                                                     
     background-image: url("https://hashinclude.info/footer-bg.cc00989cacc2122a.svg") !important;
     background-size: cover;
     /* width:1500px; */

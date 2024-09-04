@@ -19,6 +19,9 @@ body{
     text-decoration: none;
     color: white;
 }
+.nav-link:focus{
+    color: #F8DA64;
+}
 
 
 .banner-image{

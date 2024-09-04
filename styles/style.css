@@ -17,7 +17,10 @@ nav{font-size: 19px;
 }
 
 
-
+.nav-link:focus{
+    color: #F8DA64;
+    
+}
 .navbar-expand-md {
     padding: 50px 121px;
 }
@@ -62,6 +65,7 @@ div a.explore
     border-radius: 50%;
     cursor: pointer;
 }
+
 div.nav-section{
     border: 1.5px solid #fff;
     border-top: none;
@@ -445,8 +449,9 @@ footer a{
     }
     .course-cards div.card div.d-flex {
         position: absolute;
-        top: 148px;
-        left: 7%;
+        top: 151px;
+        left: 14%;
+        max-width:200;
     }
 
     .crafting-careers .col-md-5 img {
@@ -461,9 +466,7 @@ footer a{
         top: 122px;
         left: 7%;
     }
-    .img-con img {
-        width: 81px;
-    }
+    
     .pt-3 {
         padding-top: 0.25rem !important;
     }
@@ -543,7 +546,7 @@ footer a{
     }
 
     .navbar-expand-md {
-        padding: 28px 69px 0px;
+        padding: 33px 59px 0px;
     }
 
     .popular-courses {
@@ -559,7 +562,9 @@ footer a{
         margin-left: 27%;
     }
 
-
+    .intro .row{
+        margin: 0px 0px 0px 33px;
+    }
 
 
     div.intro1 p.matter {
@@ -608,9 +613,7 @@ footer a{
         .courses-section{
               display: none;
         }
-        .navbar-expand-md {
-            padding: 54px 69px;
-        }
+
         div.courses-section a {
             padding: 7px 18px;
             margin: 1px 5px;
@@ -626,7 +629,7 @@ footer a{
         }
         .course-cards{
             margin-top:30px;
-            max-width: 694px;
+            max-width: 656px;
             
         }
     
@@ -786,3 +789,7 @@ div.container.col-md-7 p {
 
 
 
+@media (max-width:577px)  {
+
+
+}

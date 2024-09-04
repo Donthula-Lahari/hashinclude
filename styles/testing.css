@@ -11,6 +11,9 @@ body{
 .navbar{font-size: 19px;   
 
 }
+.nav-link:focus{
+    color: #F8DA64;
+}
 #collapsibleNavbar{
     justify-content:space-around;
     margin-left: 71px;

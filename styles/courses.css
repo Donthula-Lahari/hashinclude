@@ -13,6 +13,11 @@ body{
     color: white;
 
 }
+
+.nav-link:focus{
+    color:#F8DA64;
+}
+
 .desktop-hide{
     display: none;
 }
@@ -163,11 +168,11 @@ color:#0b7077
     }
     .course-cards{
         margin-top:30px;
-        max-width: 694px;
+        max-width: 656px;
     }
     .course-cards div.card div.d-flex {
         position: absolute;
-        top: 177px;
+        top: 151px;
         left: 14%;
     }
     .row .card .card-body p {
